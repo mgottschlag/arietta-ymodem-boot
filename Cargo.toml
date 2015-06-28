@@ -1,0 +1,7 @@
+[package]
+name = "arietta-ymodem-boot"
+version = "0.1.0"
+authors = ["Mathias Gottschlag <mgottschlag@gmail.com>"]
+
+[target.armv5te-none-eabi.dependencies.core]
+git = "https://github.com/hackndev/rust-libcore"
